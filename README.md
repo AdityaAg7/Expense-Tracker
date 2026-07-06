@@ -17,3 +17,6 @@ A simple and responsive Expense Tracker built with HTML, CSS, and JavaScript. It
 1. Clone the repository.
 2. Open `index.html` in your browser.
 3. Start adding your transactions!
+
+## GLIMPSE-
+![Expense Tracker Screenshot](image.png)
