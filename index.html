@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div  class = 'container'>
+        <div id="balance inside">
+            <h1>Expense Tracker</h1>
+            <h3> Your Balance</h3>
+
+            <p id = 'Balance'>$0.00</p>
+        </div>
+
+        <form id = 'expense-tracker'>
+            <h4>Add new Transaction</h4>
+
+            <input type="text" placeholder="Enter text(eg: coffee)" >
+            <input type="number" placeholder = "Enter Amount (eg.,1,-1)">
+
+            <button>Add Transaction</button>
+            
+        </form>
+
+        <div id ='history- container'>
+            <h3>history</h3>
+
+            <ul id="Transaction-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>
